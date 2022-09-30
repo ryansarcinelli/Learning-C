@@ -1,38 +1,34 @@
-
-
-
-
-
+/*Develop an algorithm that reads the CPF (ID) and the number of hours worked by a worker. Calculate salary
+knowing that he earns R$ 10.00 per hour. When the number of hours exceeds 50, calculate the
+overpayment by storing it in another variable, otherwise reset that variable. the time
+surplus work is worth R$ 20.00. At the end of processing show the total salary and salary
+worker surplus.*/
 
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-    float cpf, horas, ex_horas, salario_total, salario_exedente;
+    int cpf, hours, total_salary, surplus;
 
-    printf("Digite seu Cpf:");
+    printf("Type your Cpf:");
     scanf("%f", &cpf);
-    printf("Digite as horas trabalhadas:");
-    scanf("%f", &horas);
+    printf("Type your worked hours:");
+    scanf("%f", &hours);
 
     printf("Cpf: %f", cpf);
 
-    if(horas<=50)
+    if(hours<=50)
     {
-        salario_total = (horas*10);
-        printf("\nSeu salario:%f", salario_total);
+        total_salary = (hours*10);
+        printf("\nYour salary:%f", total_salary);
     }
     else
-        if(horas >= 50)
     {
-        ex_horas = (horas-50);
-        salario_exedente = ((ex_horas)*20);
-        salario_total = (((horas-ex_horas)*10) + (salario_exedente));
-        printf("\nSeu salario total:%f", salario_total);
-        printf("\nSeu salario exedente:%f", salario_exedente);
-
+        total_salary = (500 + (hours-50)*20);
+        surplus = total_salary - 500;
+        printf("\nYour total salary is:%f", total_salary);
+        printf("\nYour surplus salary is:%f", surplus);    
     }
-
     return 0;
 }
