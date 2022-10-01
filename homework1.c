@@ -9,26 +9,26 @@ worker surplus.*/
 
 int main()
 {
-    int cpf, hours, total_salary, surplus;
+    float cpf, hours, total_salary, surplus;
 
     printf("Type your Cpf:");
     scanf("%f", &cpf);
     printf("Type your worked hours:");
     scanf("%f", &hours);
 
-    printf("Cpf: %f", cpf);
+    printf("\nCpf: %.0f", cpf);
 
     if(hours<=50)
     {
         total_salary = (hours*10);
-        printf("\nYour salary:%f", total_salary);
+        printf("\nYour salary:%.0f", total_salary);
     }
     else
     {
         total_salary = (500 + (hours-50)*20);
         surplus = total_salary - 500;
-        printf("\nYour total salary is:%f", total_salary);
-        printf("\nYour surplus salary is:%f", surplus);    
+        printf("\nYour total salary is:%.0f", total_salary);
+        printf("\nYour surplus salary is:%.0f", surplus);    
     }
     return 0;
 }
