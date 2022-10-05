@@ -3,8 +3,8 @@ Write an algorithm that reads an integer and displays a message indicating wheth
 or odd, and whether it is positive or negative.
 */
 
-  #include <stdio.h>
-  #include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
     
 int divisor, divid, rest;
 
