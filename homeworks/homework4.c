@@ -11,6 +11,8 @@ companies.
 #include <stdio.h>
 #include <stdlib.h>
 
+int main()
+{
 float a;
 
 printf("Type the pollution index.\n");
@@ -24,3 +26,6 @@ else if (0.3<=a)
   printf("Only companies from the 1st group must close..\n");
 else
   printf("The pollution index is acceptable.\n");
+
+return 0;
+}
