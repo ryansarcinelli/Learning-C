@@ -41,3 +41,5 @@ int main()
         printf("\n%.2f squared is %.2f", c, c2);
         printf("\n%.2f squared is %.2f", d, d2);
     }
+    return 0;
+}
