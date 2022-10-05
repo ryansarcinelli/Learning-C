@@ -5,7 +5,9 @@ or odd, and whether it is positive or negative.
 
 #include <stdio.h>
 #include <stdlib.h>
-    
+
+int main()
+{
 int divisor, divid, rest;
 
 printf("Type your nuber.\n");
@@ -23,4 +25,5 @@ if(divisor>0)
     printf("Your number is positive.\n");
 else
     printf("Your nuber is positive.\n");
-  
+ return 0; 
+}
