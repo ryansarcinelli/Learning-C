@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 /*
 The Environment Department that controls the pollution index maintains 3 groups of industries that are
 highly polluting the environment. The acceptable pollution index ranges from 0.05 to 0.25. If the
@@ -7,9 +10,6 @@ index reaches 0.5 all groups must be notified to stop their activities. Make one
 algorithm that reads the measured pollution index and issues the appropriate notification to the different groups of
 companies.
 */
-
-#include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
