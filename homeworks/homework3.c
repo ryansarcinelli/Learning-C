@@ -1,10 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 /*
 Write an algorithm that reads an integer and displays a message indicating whether this number is even
 or odd, and whether it is positive or negative.
 */
 
-#include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
