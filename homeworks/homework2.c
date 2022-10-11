@@ -1,16 +1,16 @@
-/*
-Develop one that:
-A. Read 4 numbers;
-B. Calculate the square of each;
-C. If the resulting value of the third square is >= 1000, show it and finish;
-D. Otherwise, most of the values read and their respective squares.
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
+    
+    /*
+    Develop one that:
+    A. Read 4 numbers;
+    B. Calculate the square of each;
+    C. If the resulting value of the third square is >= 1000, show it and finish;
+    D. Otherwise, most of the values read and their respective squares.
+    */
     
     float a, b, c, d, a2, b2, c2, d2;
 
