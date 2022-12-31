@@ -7,18 +7,19 @@ conjuntos de números.*/
 
 int main ()
 {
-    int x=50, z=2*x, a[x], b[x],c[z], j=1, k=1;
+    int x=50, z=2*x, j=1, k=1;
+    double a[x], b[x],c[z];
 
     for(int i=1;i<=x;i++)
     {
         printf("Digite o %d numero do vetor a:\n", i);
-        scanf("%d", &a[i]);
+        scanf("%lf", &a[i]);
     }
      
     for(int i=1;i<=x;i++)
     {
         printf("Digite o %d numero do vetor b:\n", i);
-        scanf("%d", &b[i]);
+        scanf("%lf", &b[i]);
     }
 
     for(int i=1;i<=z;i++)
@@ -31,7 +32,7 @@ int main ()
             c[i]=(b[k])*3;
             k++;
             }
-        printf("%d ",c[i]);
+        printf("%.2lf ",c[i]);
         
     }
 

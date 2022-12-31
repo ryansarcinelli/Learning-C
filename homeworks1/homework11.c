@@ -10,7 +10,7 @@ contain only one grain and subsequent frames twice the previous frame. The queen
 cheap labor and asked for the service to be performed, not realizing that it would be impossible to
 The payment. Make an algorithm to calculate the number of grains the monk expected to receive.*/
 
-    const numquad = 64;
+    const  int numquad = 64;
     float grains = 0.5;
     for (int i = 1; i <=numquad; i++)
     {
