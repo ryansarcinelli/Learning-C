@@ -1,2 +1,3 @@
 # Learning-C
-This is me, learning C. Mainly univernity homework.
+This repository is mainly univernity homework and studiyng for tests.
+
