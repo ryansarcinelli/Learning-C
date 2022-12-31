@@ -18,4 +18,5 @@ int main()
         c[i]=a[i]+b[i];
         printf("%d, ", c[i]);
     }
+    return 0;
 }

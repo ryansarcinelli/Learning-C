@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdlib.h": "c",
-        "hom2": "c"
+        "hom2": "c",
+        "stdio.h": "c"
     }
 }
