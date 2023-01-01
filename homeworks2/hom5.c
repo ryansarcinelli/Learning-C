@@ -7,7 +7,7 @@ colocado num vetor resultante VR e mostrado ao final do programa.*/
 
 int main()
 {
-    const int x=2;
+    const int x=3;
     float soma=0;
     int operacao;
     double a[x], b[x],op[x];
