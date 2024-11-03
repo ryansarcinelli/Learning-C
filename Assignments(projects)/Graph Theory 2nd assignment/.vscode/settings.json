@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "arquivo.h": "c",
+        "limits.h": "c",
+        "algoritmo.h": "c"
+    }
+}
